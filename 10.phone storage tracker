@@ -1,0 +1,11 @@
+a=int(input("enter the number image add:"))
+v=0
+for i in range(0,a):
+     b=input("enter image name:")
+     c=float(input("storage:"))
+     v+=c
+     print("file",BaseException)
+print("used storage",v)
+b=1024-c
+print("remaining storage",b)
+    
