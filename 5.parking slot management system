@@ -1,0 +1,11 @@
+n=int(input("enter fixed parking slot:"))
+lst=[]
+for i in range(0,n):
+    a=input("enter vehiclenumber:")
+    print("vehicle parked at slot",i)
+    if(i<n):
+        d=n-(i-1)
+        print("available slots:",d,"vehicle removed from slot",i-1)
+
+
+
